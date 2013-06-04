@@ -45,7 +45,7 @@ def url(pattern, *args, **kwargs):
 def simple_url(pattern, *args, **kwargs):
     """
     Usage:
-    @url('/users/{id}')
+    @simple_url('/users/{id}')
     def get_user_detail(request,id):
         ...
         

@@ -1,4 +1,18 @@
 django_url_decorator
 ====================
 
-django url decorator
+Django url decorator
+
+    Usage:
+    @url(r'^users$')
+    def get_user_list(request):
+        ...
+        
+    @url(r'^info/(.*)/$', name="url-name") 
+    def wiki(request, title=''):
+        ...
+        
+        
+    @simple_url('/users/{id}')
+    def get_user_detail(request,id):
+        ...
