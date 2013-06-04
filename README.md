@@ -3,6 +3,9 @@ django_url_decorator
 
 Django url decorator
 
+	Install:
+	pip install -e git+https://github.com/sammyrulez/django_url_decorator.git#egg=django_url_decorator
+
     Usage:
     @url(r'^users$')
     def get_user_list(request):
